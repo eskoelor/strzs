@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+      font-family: 'Baloo 2', cursive;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+display: flex;
+justify-content: center;
+  }
+
+  .main.container {
+    width: 90%;
+    background-size: cover;
+    margin: auto;
+   
+
+  }
+  
+  *,
+  *:before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0px;
+    background-size: cover;
+  }
+  
+      
+  .header { width: 100%;
+    background-color: #fcff63c0;
+    height: auto;
+    max-height: 151px;
+    position: sticky;
+    
+       /* max-width: auto;
+      display: flex;
+      align-items: center;
+      text-align: center;*/
+      
+  }
+  
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-color: #fcff63c0;
+  }
+  
+  .header-logo {
+      padding-left: 15px;
+      margin-top: 9px;
+  }
+  
+  .nav{
+  display: flex;
+  
+  }
+  
+  .nav-link {
+    
+    font-size: 32px;
+    font-weight: 500;
+    color: black/*#90e4da;*/;
+    text-transform: uppercase;
+    text-decoration: none;
+   transition: color .1s linear;
+   
+    margin-right: 70px;
+  }
+  
+  .nav-link:hover {
+    /*text-decoration: underline;*/
+  color: #90e4da;
+  }
+  
+  .switch {
+      position: relative;
+      display: inline-block;
+      margin: 0 5px;
+    }
+
+
+
+
+.wtf {
+    width: 70px;
+    height: 60px;
+    background-color: blue;
+}
+
+
+p {
+    text-orientation:sideways-right;
+}
+
+.background-pic {
+  background-image: url('../img/backgrblue.jpg');
+  
+  background-color: #180470;
+  opacity: ;
+  height: 579px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.backgr-photo {
+  
+}
+
+.modal-btn {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+
+
+
+
+
+
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #1605638f;
+ z-index: 2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ visibility: hidden;
+ opacity: 0;
+  transition: visibility 0s, opacity 0.5s; /**/
+}
+
+
+
+
+
+
+
+.bg-active {
+visibility: visible;
+opacity: 1;
+}
+
+.modal {
+  background-color: rgb(238, 238, 238);
+width: 80%;
+height: auto;
+display: flex;
+justify-content: space-around; /*center*/
+align-items: center;
+flex-direction: column;
+}
+
+
+
+
+
+/*useless*/
+.field-teritory-content {
+  width:auto;
+  height: auto;
+  position:relative;
+  align-items: center;
+
+ 
+}
+
+
+  .field-teritory-minus-1, .field-teritory, .field-teritory2, .field-teritory3, .field-teritory4 {
+
+  /*display: flex;
+    flex-wrap: wrap;
+    */
+    display: flex; /*kоманда в лінію*/
+   
+width: 700px;
+height: auto;
+    /*max-width: 1330px;*/
+    max-height: 700px;
+    
+    position: relative;
+    ;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.field-teritory3 {
+  background-image: url(../img/backgrblue.jpg);
+  background-color: #0554ff;
+  opacity: ;
+  width: 100%;
+  height: 579px;
+  max-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+
+.field-teritory4 {
+  background-image: url(../img/yellowbackgr2.jpg);
+  background-color: #ffda05;
+  opacity: ;
+  width: 100%;
+  height: 579px;
+  max-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+
+}
+
+.field
+{
+   width: 220px;
+    height: 279px;
+    position: relative;
+   
+   padding: 7px;
+   margin: 5px;
+   font-family: 'Reem Kufi Ink', sans-serif;
+   text-decoration: none;
+   background-image: url(https://thumbs.dreamstime.com/b/seamless-pattern-blue-clouds-yellow-stars-baby-background-watercolor-illustration-147238562.jpg);
+/*margin: 0px 20px;*/ 
+
+  }
+
+
+
+  
+
+.field2 {
+  width: 220px;
+  height: 279px;
+  position: relative;
+
+  padding: 7px;
+   margin: 5px;
+   font-family: 'Reem Kufi Ink', sans-serif;
+   text-decoration: none;
+   
+  background-image: url('../img/adult-field.ezgif.jpg')
+  /*('../img/adult-pattern-field2.jpg');*/
+}
+
+.pic-n-title-row {
+    display: flex; /*kоманда в лінію*/
+flex-direction: row;
+}
+
+.title {
+  margin: 0;
+  font-size: 23px;
+      font-weight: 500;
+      color: black/*#90e4da;*/;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 15px;
+    
+}
+
+
+
+
+.lakok-link {
+    text-decoration: none;
+}
+
+/*Jázmin*/
+.title-jazmin {
+margin: 0;
+font-size: 23px;
+    font-weight: 500;
+    color: black/*#90e4da;*/;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.title-jazmin2 {
+  margin: 0;
+  font-size: 23px;
+      font-weight: 500;
+      color: white/*#90e4da;*/;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+  }
+
+.title-edgar {
+    margin: 0;
+font-size: 23px;
+    font-weight: 500;
+    color: black/*#90e4da;*/;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title-edgar2 {
+  margin: 0;
+  font-size: 23px;
+      font-weight: 500;
+      color: white/*#90e4da;*/;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 15px;
+}
+
+
+.tanya-pic {
+  background-image: url('../img/yellowbackgr2.jpg');
+  background-color: #ffc505;
+  opacity: ;
+  height: 579px;
+  max-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  }
+  
+
+
+/*css only modal*/
+
+.button {
+  cursor: pointer;
+	outline: inherit;
+  text-decoration: none;
+}
+[id^=modal] {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+[id^=modal]:target {
+  display: block;
+}
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+.popup {
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  
+  
+}
+.popup__overlay {
+  position: absolute;
+  z-index: 100;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000b3;
+  overflow-y:auto;
+}
+.popup__wrapper {
+  position: relative;
+  z-index: 111;
+  width: 85%;
+  max-width: 1600px;
+  height: auto;
+  max-height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 58px 32px 32px 32px;
+  background: #fff;
+  overflow-y:auto;
+  
+}
+.popup__close {
+  position: absolute;
+  top: 16px;
+  right: 26px;
+  font-weight: 600;
+  font-size: 25px;
+  text-decoration: none;
+  color: #56e2d2;
+}
+
+.lakok-modal-title {
+font-size: 32px;
+}
+
+.lakok-modal-description {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 844px) {
+
+  .header { width: 100%;
+    background-color: #fcff63c0;
+    height: auto;
+    max-height: 151px;
+    position: sticky;
+    
+       /* max-width: auto;
+      display: flex;
+      align-items: center;
+      text-align: center;*/
+      
+  }
+}
+
+
+
+

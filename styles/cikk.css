@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+      font-family: 'Baloo 2', cursive;
+  background-image: url('../img/cikk-backgrou-ici-piciezgif-3-0c96186ed5.png');
+  
+}
+  
+  *,
+  *:before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1600px;
+  }
+  
+      
+  .header {
+    background-color: #fcff63;
+    height: auto;
+    max-height: 151px;
+    position: sticky;
+       /* max-width: auto;
+      display: flex;
+      align-items: center;
+      text-align: center;*/
+      background-size: cover;
+  }
+  
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+      padding-left: 15px;
+      
+  }
+  
+  .nav{
+  display: flex;
+  
+  }
+  
+  .nav-link {
+    
+    font-size: 32px;
+    font-weight: 500;
+    color: black/*#90e4da;*/;
+    text-transform: uppercase;
+    text-decoration: none;
+   transition: color .1s linear;
+   
+    margin-right: 70px;
+  }
+  
+  .nav-link:hover {
+    /*text-decoration: underline;*/
+  color: #90e4da;
+  }
+
+  --------------------------
+
+  .menu-bar {
+  
+    background-color:  ;
+    width: 60px; /*60px*/
+    height: 45px;
+    align-items: center;
+    display: block;
+    border-radius: 58%;
+   padding-left: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 40px;
+   p
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #8fe3d9;
+    align-items: center;
+    padding-left: 4px;
+    -webkit-clip-path: ellipse(80% 50%);
+    clip-path: ellipse(85% 50%);
+    border-radius: 25%;
+  
+    
+    
+  }
+  
+  
+  .flag {
+    
+    width: 32;
+    height: 32;
+    background-color: ;
+    align-items: center;
+    margin-left: 4px;
+    
+  }
+  
+  .hu-style {
+    font-family: 'Baloo 2', cursive;
+    font-size: 32px;
+  
+  }
+  
+  .ua-link {
+    text-decoration: none;
+   
+  }
+  
+  .ua-style {
+    font-family: 'Baloo 2', cursive;
+    font-size: 32px;
+    color: black;
+  }
+  
+  .submenu1 {
+    display: none;
+    
+  }
+  
+  .menu-bar:hover .submenu1 {
+    display: block;
+    height: 90px;
+  
+  }
+
+  .back-n-arrow {
+  
+
+  }
+
+
+
+.wrapper {
+  margin-top: 1%;
+}
+
+
+
+.zaglav {
+  position: relative;
+  display: flex;
+  flex: content;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background-color: #e4e731;
+  transform: rotate(4deg);
+  color: rgb(64, 68, 32);
+  height 80px;
+  font-size: 28px;
+  
+  padding-left: 6px;
+  padding-right: 6px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  margin-left: 12%;
+  
+  z-index: 100;
+}
+
+ .container1 {
+  position: absolute;
+  display: flex; 
+  align-items: center;
+  width: 80%;
+margin-left: 10%;
+margin-top: 14px;
+margin-bottom: 14px;
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 25px;
+padding-bottom: 1%;
+font-family: 'Dosis', sans-serif;
+font-weight: 800;
+font-size: 24px;
+ color: rgb(49, 52, 58);
+  background-color: rgb(217, 228, 238);
+
+z-index: 99;
+ }

@@ -1,0 +1,158 @@
+body {
+  font-family: 'Dosis', sans-serif;
+
+  margin: 0;
+    /*font-family: 'Baloo 2', cursive;*/
+  /*font-size: 14px;*/
+  margin: 0px;
+  padding: 0px;
+display: flex;
+justify-content: center;
+background-image: url('../img/ukr-hun-mini-backgr.jpg');
+}
+
+
+
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0px;
+}
+
+    
+.header { width: 100%;
+  background-color: #fcff63;
+  height: auto;
+  max-height: 151px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+    
+}
+
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  background-color: #fcff63;/*#fcff63c0;*/
+  margin-bottom: 18px;
+}
+
+.header-logo {
+    padding-left: 15px;
+    margin-top: 9px;
+}
+
+.nav{
+display: flex;
+
+}
+
+.nav-link {
+  
+  font-size: 32px;
+  font-weight: 500;
+  color: black/*#90e4da;*/;
+  font-family: 'Baloo 2', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+ transition: color .1s linear;
+ 
+  margin-right: 70px;
+}
+
+.nav-link:hover {
+  /*text-decoration: underline;*/
+color: #90e4da;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .main-container {
+      width: 700px; /*90%;*/
+      
+      margin: auto;
+      background-color: yellow;
+      
+     
+  
+    }
+
+
+    .cikk.photo {
+      width: 400px;
+      height: 200px;
+    }
+
+.cikk-field {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  height: 279px;
+  position: relative;
+  
+
+
+  padding: 7px;
+    /*18px;*/
+   
+  background-color: aquamarine;
+   margin-bottom: 9px;
+}
+
+.space-bottom {
+height: 9px;
+}
+
+.cikk-link {
+color: yellow;
+}
+
+.cikk-title {
+  font-family: 'Arimo', sans-serif;
+
+    margin: 10px;
+font-size: 30px;
+  font-weight: 500;
+  color: black/*#90e4da;*/;
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+  display: flex ;
+  flex-direction: unset;
+  
+}
+
+.sub-title {
+font-family: 'Arimo', sans-serif;
+  
+
+margin-left: 11px;
+font-weight:500;
+color: rgb(124, 124, 115);
+}
+
+.title-under-each-other
+
+
+
+/*media adaptive*/
+@media (max-width: 869px) {
+
+  .header {
+  
+  }
+
+}

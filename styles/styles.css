@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  margin-bottom: 0px;
+  padding: 0;
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(3, 3, 116);
+    background-image: url('../img/strazsa-zzeta1.png');
+background-position: bottom;
+background-repeat: no-repeat;  
+}
+
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+}
+
+    
+.header {
+  background-color: #fcff63;
+  height: auto;
+  max-height: 151px;
+  position: sticky;
+     /* max-width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;*/
+    background-size: cover;
+}
+
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+    padding-left: 15px;
+    
+}
+
+.nav{
+display: flex;
+
+}
+
+.nav-link {
+  
+  font-size: 32px;
+  font-weight: 500;
+  color: black/*#90e4da;*/;
+  text-transform: uppercase;
+  text-decoration: none;
+ transition: color .1s linear;
+ 
+  margin-right: 70px;
+}
+
+.nav-link:hover {
+  /*text-decoration: underline;*/
+color: #90e4da;
+}
+
+.tanya1 {
+  width: 100%;
+  
+  object-fit: cover;
+
+}
+
+  /*stráza memory*/
+.memory{
+  background-color: rgb(3, 3, 116);
+  overflow: hidden;
+ 
+}
+
+
+  .memory-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+  }
+
+  
+
+  .memory-photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+  }
+
+.memory-img {
+ position: absolute; 
+ top: 0;
+ right: 0;
+ z-index: 1;
+}
+
+.memory-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-left: 80px;
+}
+
+  .memory-title {
+    font-family: 'Cardo', serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .memory-text {
+    width: 50%;/*originally 50%; *//*71-80*/
+    font-family: 'Cardo', serif;
+    color: white;
+    font-size: 26px;
+  }
+
+  /*ffggghzzzzzzzzzzzzzzzzz
+
+  .typewriter {
+    background-color: rgb(3, 3, 116);
+    height: 100%;
+    font-family: 'Cardo', serif;
+  }
+  
+  h1 {
+    font-size: 5em;
+    color: white;
+    
+  }
+  
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }*/
+
+  
+
+  /* yayayayayay*/
+.menu-bar {
+  
+  background-color:  ;
+  width: 60px; /*60px*/
+  height: 45px;
+  align-items: center;
+  display: block;
+  border-radius: 58%;
+ padding-left: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-right: 40px;
+ p
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #8fe3d9;
+  align-items: center;
+  padding-left: 4px;
+  -webkit-clip-path: ellipse(80% 50%);
+  clip-path: ellipse(85% 50%);
+  border-radius: 25%;
+
+  
+  
+}
+
+
+.flag {
+  
+  width: 32;
+  height: 32;
+  background-color: ;
+  align-items: center;
+  margin-left: 4px;
+  
+}
+
+.hu-style {
+  font-family: 'Baloo 2', cursive;
+  font-size: 32px;
+
+}
+
+.ua-link {
+  text-decoration: none;
+ 
+}
+
+.ua-style {
+  font-family: 'Baloo 2', cursive;
+  font-size: 32px;
+  color: black;
+}
+
+.submenu1 {
+  display: none;
+  
+}
+
+.menu-bar:hover .submenu1 {
+  display: block;
+  height: 90px;
+
+}
